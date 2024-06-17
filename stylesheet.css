@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Jura';
+    src: url('Jura-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url('Jura-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url('Jura-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url('Jura-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url('Jura-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+body,html{
+    height: 100%;
+    font-family: 'Jura';
+    background-color: #CA6161;
+
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrapper__main{
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+}
+
+.main-wrapper__main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-text{
+    width: 250px;
+    text-align: center;
+    margin: 27px 0 12px 0;
+    font-size: 20px;
+    font-weight: 540;
+    color: white;
+}
+
+.main__logo{
+    margin-left: 25px;
+}
+
+
+.footer-wrapper__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 170px;
+    padding-bottom: 110px;
+    
+}
+
+.main__button{
+    padding:15px 30px;
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-left: 20px;
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.2),
+    4px 0 20px -2px rgba(0, 0, 0, 0.2),
+    0 -4px 20px -2px rgba(0, 0, 0, 0.2),
+    -4px 0 20px -2px rgba(0, 0, 0, 0.2);
+}
+
+.header__menu{
+    background-color: #CA6161;
+}
+
+.header-wrapper__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.main-wrapper__menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.link__menu{
+    background-color: white;
+    border: 1px solid black;
+    font-size: 32px;
+    color: black;
+    background-color: white;
+    min-width: 320px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    padding-left: 10px;
+}
+
+.global-wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto;
+}
+
+
+
+.main-wrapper{
+    background-image: url(./img/background.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-wrapper__menu{
+    padding-top: 90px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wrapper__coffe{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.coffee__name{
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.coffee__subname{
+    font-size: 20px;
+    text-decoration: none; 
+}
+
+.text_description{
+    background-color: rgba(111, 59, 59, 0.4);
+    text-shadow: 1px 1px 2px #8B5F5F;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 4px;
+    max-width: 370px;
+}
+
+.footer-wrapper__coffee{
+    height: 20px;
+    background-color: #CA6161;
+    margin-top: auto;
+}
+
+.back-link{
+    margin-left: auto;
+    font-size: 32px;
+    color: black;
+    margin-top: 15px;
+}
+
+
+
+
+@media(max-width: 1199px){
+    .container{
+        width: 100%;
+    }
+
+
+
+}
+
+@media(min-width:1199px){
+    .link__menu{
+        width: 100%;
+    }
+
+    .main-wrapper__menu{
+        padding-top: 50px;
+    }
+
+    .back-link{
+        margin-left: 0;
+    }
+}
+
+
